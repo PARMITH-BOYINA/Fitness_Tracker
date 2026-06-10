@@ -39,7 +39,7 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           args: >
-            -Dsonar.projectKey=fitness-Tracker
+            -Dsonar.projectKey=fitness_Tracker
             -Dsonar.projectName=Fitness_Tracker
             -Dsonar.sources=.
             -Dsonar.exclusions=node_modules/**
